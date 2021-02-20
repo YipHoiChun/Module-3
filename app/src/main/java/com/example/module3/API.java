@@ -1,7 +1,9 @@
 package com.example.module3;
 
 public class API {
-    static String url = "https://wshk1920.herokuapp.com/";
+    static String url = "https://wshk1920.herokuapp.com/api/";
+//    static String url = "https://reqres.in/api/";
+
 
     static String loginString() {
         return url + "login";

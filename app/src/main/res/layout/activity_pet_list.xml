@@ -30,10 +30,10 @@
         app:srcCompat="@android:drawable/ic_input_add"
         tools:ignore="MissingConstraints" />
 
-<!--    <fragment-->
-<!--        android:id="@+id/fragment2"-->
-<!--        android:name="org.wshk.wshksample.MemberListFragment"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent" />-->
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.module3.PetListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -93,7 +93,7 @@ public class PetListFragment extends Fragment {
                     array = response.getJSONArray("data");
                     for(int i =0; i< array.length(); i++){
                         JSONObject member = array.getJSONObject(i);
-                        String name = member.getString("first_name") + " " + member.getString("last_name").toUpperCase();
+                        String name = member.getString("name") + " " + member.getString("species").toUpperCase();
                         Integer id = member.getInt("id");
                         names.add(name);
                         ids.add(id);

@@ -70,7 +70,7 @@ public class RegisterActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 }
-                Log.i("WSHKApp", new String(error.networkResponse.data));
+                Log.i("App", new String(error.networkResponse.data));
             }
         });
         queue.add(jsonObjectRequest);
