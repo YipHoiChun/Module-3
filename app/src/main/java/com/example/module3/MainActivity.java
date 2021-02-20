@@ -59,8 +59,8 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(JSONObject response) {
                 //login success
                 Toast.makeText(MainActivity.this, "Login Success!", Toast.LENGTH_LONG).show();
-//                Intent i = new Intent(MainActivity.this, MemberListActivity.class);
-//                startActivity(i);
+                Intent i = new Intent(MainActivity.this, PetListActivity.class);
+                startActivity(i);
             }
         }, new Response.ErrorListener(){
             @Override

@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Membership System Registration"
+            android:text="Pet System Registration"
             android:layout_gravity="center_horizontal"
             />
 
